@@ -1,0 +1,16 @@
+{
+  "name": "desafio-fundamentos-node-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node ./src/server.js",
+    "import:csv": "node ./src/streams/import-csv.js"
+  },
+  "repository": "git@github.com:bellotti92/desafio-fundamentos-node-01.git",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.3.5"
+  }
+}
